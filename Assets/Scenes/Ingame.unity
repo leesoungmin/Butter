@@ -269,6 +269,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6450857897947057842, guid: d6d893da077fb1840bca2db05f5754d8, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6450857897947057842, guid: d6d893da077fb1840bca2db05f5754d8, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.8
+      objectReference: {fileID: 0}
     - target: {fileID: 6840567686012840867, guid: d6d893da077fb1840bca2db05f5754d8, type: 3}
       propertyPath: m_Name
       value: Player
@@ -276,6 +284,10 @@ PrefabInstance:
     - target: {fileID: 6840567686012840867, guid: d6d893da077fb1840bca2db05f5754d8, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840567686012840867, guid: d6d893da077fb1840bca2db05f5754d8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8512330935983385381, guid: d6d893da077fb1840bca2db05f5754d8, type: 3}
       propertyPath: m_RootOrder
@@ -871,10 +883,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2530318b6a9a61348807d2c42647b213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BrickCreateTime: 0
-  Brick_Parent: {fileID: 0}
-  BirickList: []
-  Brick: {fileID: 888555700250132010, guid: 00f58c4cb4fe0e24a9b63e0af6468a88, type: 3}
+  brickCreateTime: 0
+  brickParent: {fileID: 0}
+  brickList: []
+  brickObj: {fileID: 0}
 --- !u!1 &1200788484
 GameObject:
   m_ObjectHideFlags: 0
